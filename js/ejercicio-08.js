@@ -13,7 +13,7 @@ while (isNaN(num) || num < 0 || num > 50) {
   num = prompt("Dato incorrecto. Ingresa un numero no mayor a 50 y mayor a 0.");
 }
 
-const texto = document.getElementById("pantalla");
+let texto = document.getElementById("pantalla");
 const numero = parseInt(num)
 
 for(let filas=1; filas<=numero; filas++){
