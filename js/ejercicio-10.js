@@ -4,7 +4,7 @@ const filas = parseInt(prompt("Ingrese el numero de filas"));
 const columnas = parseInt(prompt("Ingrese el numero de columnas"));
 
 let producto = filas * columnas;
-let texto = document.getElementById("pantalla");
+let texto = document.getElementById("tabla");
 
 for (indiceFilas = 1; indiceFilas <= filas; indiceFilas++) {
   texto.innerHTML += `<tr id="${indiceFilas}"></tr>`;
